@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.navbar{
+    background-color: #fd6569;
+    padding: 10px;
+}
+
+.container{
+    padding: 10px;
+    
+
+}
+.book-container{
+    
+    padding: 15px;
+    width: 21%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: 30px;
+    vertical-align: top;
+    display: inline-block;
+}
+.book-container h2{
+    color: #fd6569;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.book-container h5{
+    padding-top: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.book-container p{
+    padding-top: 2px;
+    padding-bottom: 7px;
+    display:inline-block;
+    
+}
+.book-container button{
+    background-color: #fd6569;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    
+}
+
+.add-button{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.pop-overlay{
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    display: none;
+}
+
+.popup-box{
+    background-color: black;
+    color: white;
+    width: 35%;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    padding: 40px;
+    display: none;
+}
+.clr{
+    color: #fd6569;
+    background-color: black;
+    border:wheat;
+    border-radius: 10px;
+}
+.popup-box input{
+    background: black;
+    color: white;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid rgb(250, 250, 250) 2px;
+   
+
+}
+.popup-box textarea{
+    background: rgb(12, 12, 12);
+    color: aliceblue;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid rgb(242, 242, 242) 2px;
+    
+
+}
+.popup-box textarea::placeholder
+{
+    color: white;
+}
+.popup-box button{
+    color:#fd6569;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border: none;
+    margin: 5px;
+    background-color: white;
+}
+
+.popup-box input:focus{
+    outline: none;
+
+}
+.popup-box textarea:focus{
+    outline: none;
+
+}
+
+.popup-box h2{
+    padding-bottom: 10px;
+}
